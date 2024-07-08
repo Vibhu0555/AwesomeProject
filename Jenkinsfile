@@ -1,11 +1,6 @@
 pipeline {
     agent any
 
-    tools {
-        // Install Node.js from the tool configuration
-        nodejs 'nodejs-14' // Replace 'nodejs-14' with your configured Node.js version
-    }
-
     stages {
         stage('Checkout') {
             steps {
